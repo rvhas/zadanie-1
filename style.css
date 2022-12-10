@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Roboto&display=swap');
+#main { 
+	max-width: 750px;
+	margin: 0 auto; 
+	background: #fff; 
+	padding-bottom: 20px;
+}
+
+#container {
+	width: 557px;
+	margin: 0 auto;
+	/*padding-top: 30px;*/
+	background: #fff; 
+}
+
+.avatar {
+    /*margin-top: 72px;*/
+    height: 180px;
+    border-radius:28px;       
+}
+
+.info {
+	padding-top: 15px;
+	margin-bottom: 20px; 
+	display: flex;
+}
+
+.info-text {
+	margin-left: 20px;
+}
+
+.info-text p {
+	font-style: normal;
+    /*color: #86898f;*/
+    margin: 0 0 4px 0;
+}
+
+body {
+	font-family:'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    background: #eee;    
+    color: #0f141e;
+}
+
+.card {
+	border: 1px solid #888383;
+	padding:15px 20px; 
+    margin-bottom: 20px;
+}
+ 
+h1 {
+ 	padding-top: 40px;
+ 	text-align: center;
+ 	margin-top: 0;
+ }
+
+.card h2 {
+	text-align: center;
+	margin-botton: 10px;
+	margin-top: 10px;
+	color: #555;
+}
+
+.table {
+	width: 50%;
+	margin: 0 auto;
+}
+
+.table td:first-child {
+	text-align: left;
+}
+
+.table td:last-child {
+	text-align: right;
+}
+
+#tbl {
+	width: 100%;
+	margin: 0 auto;
+}
+
+#tbl td{
+	text-align:  center;	
+}
+
+#tbl th{
+	text-align:  center;
+	border-bottom:  1px solid black;
+	padding-bottom: 5px;	
+}
+
+#cont {
+	text-align:  center;
+	width: 100%;
+	margin: 0 auto;
+}
+
+.list {
+	/*padding: 0 20px;*/
+	margin-bottom: 10px;
+	line-height: 20px;
+}
+
+.bigcheck {
+	height: 37px; 
+	width: 37px
+}
+
+a {
+    color: #000;
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+a:active{
+    color: blue;
+}
+
+a:visited {
+    color: grey;
+}
